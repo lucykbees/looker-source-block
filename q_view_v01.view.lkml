@@ -6,7 +6,7 @@ view: q_view_v01 {
    parameter: site {
     type: unquoted
     allowed_value: {
-      label: 'All'
+      label: "All"
       value: "wolfandbadger"
     }
   }
