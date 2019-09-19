@@ -2,18 +2,18 @@ include: "q_view.view.lkml"
 
 view: q_view_v01 {
   extends: [q_view]
-  
-  parameter: site {
+
+   parameter: site {
     type: unquoted
     allowed_value: {
-      label: ".com"
-      value: "store_us"
+      label: 'All'
+      value: "wolfandbadger"
     }
   }
 
   parameter: project {
     type: unquoted
-    default_value: "12345"
+    default_value: "37262"
     hidden: yes
   }
 
